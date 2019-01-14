@@ -1,5 +1,5 @@
 # escape=`
-FROM windowsservercore-ltsc2019
+FROM microsoft/dotnet-framework
 
 RUN powershell -Command `
     wget 'http://javadl.oracle.com/webapps/download/AutoDL?BundleId=210185' -Outfile 'C:\jreinstaller.exe' ; `
